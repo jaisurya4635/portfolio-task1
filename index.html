@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web development projects and skills">
+    <title>Jaisurya - Web Developer Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-code-slash"></i> Jaisurya
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-sm btn-outline-light ms-lg-2" id="darkModeToggle"
+                            aria-label="Toggle dark mode">
+                            <i class="bi bi-moon-stars"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-8">
+                    <div class="hero-content">
+                        <h1 class="display-3 fw-bold mb-3">Hi, I'm Jaisurya</h1>
+                        <h2 class="h3 mb-4 text-primary">Full-Stack Web Developer</h2>
+                        <p class="lead mb-4">
+                            I create beautiful, responsive websites and web applications that solve real-world problems.
+                            Passionate about clean code, user experience, and continuous learning.
+                            responsive websites and applications. I love turning complex problems into simple,
+                            beautiful, and intuitive designs.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me exploring new technologies, contributing to open-source
+                            projects, or sharing knowledge with the developer community. I believe in writing clean,
+                            maintainable code and following best practices.
+                        </p>
+                        <ul class="list-unstyled mt-4">
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Responsive Web
+                                Design
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Modern JavaScript
+                                Frameworks</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> RESTful API
+                                Development</li>
+                            <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i> Database Design &
+                                Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Skills -->
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h3 class="mb-4 text-center">Technical Skills</h3>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="HTML/CSS skill level" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">JavaScript</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="JavaScript skill level" aria-valuenow="90"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">React/Vue</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="React/Vue skill level" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">Node.js/Express</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Node.js/Express skill level"
+                            aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">Database (SQL/NoSQL)</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Database skill level" aria-valuenow="75"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="d-flex justify-content-between mb-1">
+                            <span class="fw-semibold">Git/DevOps</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress" role="progressbar" aria-label="Git/DevOps skill level" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar bg-primary" style="width: 70%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Stats -->
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card stat-card h-100 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-calendar-check display-4 text-primary mb-3"></i>
+                                <h3 class="card-title fw-bold">5+</h3>
+                                <p class="card-text text-muted">Years Experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card stat-card h-100 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-folder-check display-4 text-primary mb-3"></i>
+                                <h3 class="card-title fw-bold">50+</h3>
+                                <p class="card-text text-muted">Projects Completed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card stat-card h-100 shadow-sm">
+                            <div class="card-body">
+                                <i class="bi bi-people display-4 text-primary mb-3"></i>
+                                <h3 class="card-title fw-bold">30+</h3>
+                                <p class="card-text text-muted">Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 section-title">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h3 class="mb-4">Who I Am</h3>
+                    <p class="lead">I'm Jaisurya, a passionate Full-Stack Web Developer dedicated to creating innovative and user-friendly web solutions.</p>
+                    <p>With over 5 years of experience in web development, I specialize in building responsive, scalable applications using modern technologies like React, Node.js, and various database systems.</p>
+                    <p>My journey in tech started with a curiosity about how websites work, and it has evolved into a career where I get to solve complex problems and bring ideas to life through code.</p>
+                    <p>I believe in writing clean, maintainable code and following industry best practices. When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-code-square display-5 text-primary me-3"></i>
+                                    <h5 class="mb-0">Clean Code</h5>
+                                </div>
+                                <p class="text-muted mb-0">Writing maintainable, efficient, and scalable code following best practices.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-palette display-5 text-primary me-3"></i>
+                                    <h5 class="mb-0">Design Focus</h5>
+                                </div>
+                                <p class="text-muted mb-0">Creating beautiful, intuitive interfaces that users love to interact with.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-lightning-charge display-5 text-primary me-3"></i>
+                                    <h5 class="mb-0">Performance</h5>
+                                </div>
+                                <p class="text-muted mb-0">Optimizing applications for speed and efficiency across all devices.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 border-0 shadow-sm p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <i class="bi bi-people display-5 text-primary me-3"></i>
+                                    <h5 class="mb-0">Collaboration</h5>
+                                </div>
+                                <p class="text-muted mb-0">Working effectively with teams to deliver projects on time and within scope.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 section-title">My Projects</h2>
+            <div class="row g-4">
+                <!-- Project 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-1">
+                            <span>E-Commerce Platform</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce Platform</h5>
+                            <p class="card-text">A full-featured online shopping platform with cart, checkout, and
+                                payment integration.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-primary me-1">Node.js</span>
+                                <span class="badge bg-primary me-1">MongoDB</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal1">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-2">
+                            <span>Task Manager App</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Task Manager App</h5>
+                            <p class="card-text">Collaborative task management tool with real-time updates and team
+                                features.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Vue.js</span>
+                                <span class="badge bg-primary me-1">Firebase</span>
+                                <span class="badge bg-primary me-1">Tailwind</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal2">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-3">
+                            <span>Weather Dashboard</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Weather Dashboard</h5>
+                            <p class="card-text">Real-time weather application with forecasts, maps, and location-based
+                                alerts.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">JavaScript</span>
+                                <span class="badge bg-primary me-1">API</span>
+                                <span class="badge bg-primary me-1">Bootstrap</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal3">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-4">
+                            <span>Blog Platform</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Blog Platform</h5>
+                            <p class="card-text">Modern blogging platform with markdown support, comments, and social
+                                sharing.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Next.js</span>
+                                <span class="badge bg-primary me-1">PostgreSQL</span>
+                                <span class="badge bg-primary me-1">Prisma</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal4">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-5">
+                            <span>Real-Time Chat App</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Real-Time Chat App</h5>
+                            <p class="card-text">Instant messaging application with group chats, file sharing, and video
+                                calls.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Socket.io</span>
+                                <span class="badge bg-primary me-1">Express</span>
+                                <span class="badge bg-primary me-1">WebRTC</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal5">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card project-card h-100 shadow-sm">
+                        <div class="project-placeholder project-placeholder-6">
+                            <span>Portfolio Builder</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Builder</h5>
+                            <p class="card-text">Drag-and-drop portfolio website builder with customizable themes and
+                                templates.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">React</span>
+                                <span class="badge bg-primary me-1">DnD Kit</span>
+                                <span class="badge bg-primary me-1">Sass</span>
+                            </div>
+                            <button class="btn btn-outline-primary btn-sm" data-bs-toggle="modal"
+                                data-bs-target="#projectModal6">
+                                View Details <i class="bi bi-arrow-right ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center mb-5 section-title">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow">
+                        <div class="card-body p-4 p-md-5">
+                            <p class="text-center mb-4">
+                                Have a project in mind? Let's work together! Fill out the form below and I'll get back
+                                to you as soon as possible.
+                            </p>
+
+                            <!-- Success Alert -->
+                            <div class="alert alert-success d-none" id="successAlert" role="alert" aria-live="polite">
+                                <i class="bi bi-check-circle-fill me-2"></i>
+                                <strong>Thanks!</strong> Your message was sent successfully. I'll get back to you soon!
+                            </div>
+
+                            <form id="contactForm" novalidate>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                    <div class="invalid-feedback" aria-live="polite"></div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email <span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                    <div class="invalid-feedback" aria-live="polite"></div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" name="subject">
+                                    <div class="invalid-feedback" aria-live="polite"></div>
+                                </div>
+
+                                <div class="mb-4">
+                                    <label for="message" class="form-label">Message <span
+                                            class="text-danger">*</span></label>
+                                    <textarea class="form-control" id="message" name="message" rows="5"
+                                        required></textarea>
+                                    <div class="invalid-feedback" aria-live="polite"></div>
+                                </div>
+
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">
+                                        <i class="bi bi-send me-2"></i>Send Message
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2024 Jaisurya. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-links text-center text-md-end">
+                        <a href="https://github.com/jaisurya4635" target="_blank" rel="noopener noreferrer" class="text-white me-3"
+                            aria-label="Visit my GitHub profile">
+                            <i class="bi bi-github fs-4"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jai-surya-b055a2339/" target="_blank" rel="noopener noreferrer" class="text-white me-3"
+                            aria-label="Visit my LinkedIn profile">
+                            <i class="bi bi-linkedin fs-4"></i>
+                        </a>
+                        <a href="mailto:jaisuryajaisurya623@gmail.com" class="text-white" aria-label="Send me an email">
+                            <i class="bi bi-envelope fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">E-Commerce Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>A comprehensive e-commerce solution built with modern web technologies. Features include user
+                        authentication, product catalog, shopping cart, secure checkout, payment integration with
+                        Stripe, order tracking, and an admin dashboard for inventory management.</p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>User authentication and authorization</li>
+                        <li>Product search and filtering</li>
+                        <li>Shopping cart with persistent storage</li>
+                        <li>Secure payment processing</li>
+                        <li>Order history and tracking</li>
+                        <li>Admin dashboard for product management</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">React</span>
+                        <span class="badge bg-primary me-1">Node.js</span>
+                        <span class="badge bg-primary me-1">Express</span>
+                        <span class="badge bg-primary me-1">MongoDB</span>
+                        <span class="badge bg-primary me-1">Stripe API</span>
+                        <span class="badge bg-primary me-1">Redux</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">Task Manager App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>A collaborative task management application that helps teams organize, track, and complete
+                        projects efficiently. Built with Vue.js and Firebase for real-time synchronization across
+                        devices.</p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>Real-time task updates and notifications</li>
+                        <li>Drag-and-drop task organization</li>
+                        <li>Team collaboration and assignment</li>
+                        <li>Priority levels and due dates</li>
+                        <li>Progress tracking and analytics</li>
+                        <li>File attachments and comments</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">Vue.js</span>
+                        <span class="badge bg-primary me-1">Firebase</span>
+                        <span class="badge bg-primary me-1">Vuex</span>
+                        <span class="badge bg-primary me-1">Tailwind CSS</span>
+                        <span class="badge bg-primary me-1">Cloud Firestore</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal3Label">Weather Dashboard</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>A comprehensive weather application providing real-time weather data, forecasts, and interactive
+                        maps. Uses multiple weather APIs to deliver accurate and detailed meteorological information.
+                    </p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>Current weather conditions</li>
+                        <li>7-day weather forecast</li>
+                        <li>Hourly predictions</li>
+                        <li>Interactive weather maps</li>
+                        <li>Location-based alerts</li>
+                        <li>Multiple location tracking</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">JavaScript</span>
+                        <span class="badge bg-primary me-1">OpenWeather API</span>
+                        <span class="badge bg-primary me-1">Chart.js</span>
+                        <span class="badge bg-primary me-1">Bootstrap</span>
+                        <span class="badge bg-primary me-1">Geolocation API</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal4Label">Blog Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>A modern blogging platform built with Next.js and PostgreSQL. Features markdown support, rich
+                        text editing, comments, social sharing, and SEO optimization for better discoverability.</p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>Markdown and rich text editor</li>
+                        <li>User authentication and profiles</li>
+                        <li>Comments and reactions</li>
+                        <li>Social media sharing</li>
+                        <li>SEO optimization</li>
+                        <li>Tag-based categorization</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">Next.js</span>
+                        <span class="badge bg-primary me-1">PostgreSQL</span>
+                        <span class="badge bg-primary me-1">Prisma</span>
+                        <span class="badge bg-primary me-1">NextAuth</span>
+                        <span class="badge bg-primary me-1">Markdown</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal5Label">Real-Time Chat App</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>A feature-rich real-time messaging application with support for one-on-one chats, group
+                        conversations, file sharing, and video calls. Built with Socket.io for instant message delivery.
+                    </p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>Real-time messaging with Socket.io</li>
+                        <li>Group chat functionality</li>
+                        <li>File and image sharing</li>
+                        <li>Video and voice calls (WebRTC)</li>
+                        <li>Message read receipts</li>
+                        <li>Typing indicators</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">Socket.io</span>
+                        <span class="badge bg-primary me-1">Express</span>
+                        <span class="badge bg-primary me-1">WebRTC</span>
+                        <span class="badge bg-primary me-1">MongoDB</span>
+                        <span class="badge bg-primary me-1">JWT</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="projectModal6" tabindex="-1" aria-labelledby="projectModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal6Label">Portfolio Builder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6 class="fw-bold">Description</h6>
+                    <p>An intuitive drag-and-drop portfolio website builder that allows users to create professional
+                        portfolios without coding. Features customizable themes, templates, and real-time preview.</p>
+
+                    <h6 class="fw-bold mt-3">Key Features</h6>
+                    <ul>
+                        <li>Drag-and-drop interface</li>
+                        <li>Pre-built templates</li>
+                        <li>Customizable themes and colors</li>
+                        <li>Real-time preview</li>
+                        <li>Export to HTML/CSS</li>
+                        <li>Responsive design preview</li>
+                    </ul>
+
+                    <h6 class="fw-bold mt-3">Tech Stack</h6>
+                    <p>
+                        <span class="badge bg-primary me-1">React</span>
+                        <span class="badge bg-primary me-1">DnD Kit</span>
+                        <span class="badge bg-primary me-1">Sass</span>
+                        <span class="badge bg-primary me-1">Context API</span>
+                        <span class="badge bg-primary me-1">Local Storage</span>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-box-arrow-up-right me-1"></i>Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline-primary" target="_blank" rel="noopener noreferrer">
+                        <i class="bi bi-github me-1"></i>View Repo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
